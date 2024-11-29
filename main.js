@@ -1,5 +1,7 @@
-//  let heading = document.getElementById("heading");
-//  console.dir(heading);
+let newBtn = document.createElement("button");
+newBtn.innerText="click me"
+newBtn.style.color= "white";
+newBtn.style.backgroundColor ="red";
 
 // let headings= document.getElementsByClassName("heading");
 // console.dir(headings);
