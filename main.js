@@ -20,3 +20,24 @@ newBtn.style.backgroundColor ="red";
 
 let div = document.querySelector("div");
 console.dir(div);
+
+
+//DOM add event listener
+document.getElementById("abc").onclick = abc;
+function abc(){
+    document.getElementById("abc").style.background ="green";
+}
+
+document.getElementById("xyz").onmouseenter=abc;
+function abc(){
+    document.getElementById("xyz").style.background ="blue";
+}
+
+
+document.getElementById("heading-1").addEventListener("mouseenter",heading);
+document.getElementById("heading-1").addEventListener("click",function(){
+    document.getElementById("heading-1").style.border = "10px solid black";
+});
+function heading(){
+    document.getElementById("heading-1").style.background ="green";
+}
